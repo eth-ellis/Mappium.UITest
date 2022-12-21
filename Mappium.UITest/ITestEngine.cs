@@ -65,6 +65,12 @@ namespace Mappium.UITest
         /// <summary>
         /// TODO
         /// </summary>
+        /// <param name="text"></param>
+        void SendKeysTokeyboard(string text);
+
+        /// <summary>
+        /// TODO
+        /// </summary>
         /// <param name="primarySelectorMode"></param>
         /// <param name="primarySelector"></param>
         /// <param name="secondarySelectorMode"></param>

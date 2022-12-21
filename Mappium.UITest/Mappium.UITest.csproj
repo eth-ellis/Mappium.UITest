@@ -1,9 +1,11 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <IsPackable>true</IsPackable>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	<Version>1.1.0</Version>
+	<Authors>eth-ellis</Authors>
     <Title>Mappium.UITest</Title>
     <Description>Mappium.UITest is a UITest helper framework built on top of Appium for MAUI and Xamarin.Forms that aims to make it easier to write and run cross platform UI Tests.</Description>
     <PackageTags>maui;xamarin;mappium;uitest;appium;ios;android</PackageTags>

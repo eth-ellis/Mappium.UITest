@@ -4,6 +4,8 @@ using Mappium.UITest.Providers;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Appium;
 using OpenQA.Selenium.Appium.MultiTouch;
+using OpenQA.Selenium.Appium.Windows;
+using OpenQA.Selenium.Interactions;
 using OpenQA.Selenium.Support.UI;
 using System;
 using System.Collections.Generic;
@@ -12,6 +14,7 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Runtime.CompilerServices;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace Mappium.UITest.Platforms
 {
@@ -255,6 +258,14 @@ namespace Mappium.UITest.Platforms
             }
 
             element.SendKeys(text);
+        }
+
+        /// <inheritdoc/>
+        public virtual void SendKeysTokeyboard(string text)
+        {
+            Actions builder = new Actions(Driver);
+            builder.SendKeys(text);
+            builder.Perform();
         }
 
         /// <inheritdoc/>
