@@ -2,12 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
-    <Summary>Mappium.UITest is a lightweight UITest wrapper for Xamarin developers using Appium to UI Test their apps. This simplifies setup and common abstractions making it easier to write UI Tests that are Platform agnostic.</Summary>
-    <PackageTags>xamarin;uitest;appium;ios;android</PackageTags>
-    <Title>Mappium UITest Plus</Title>
     <IsPackable>true</IsPackable>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Description>Mappium.UITest is your solution as a .NET Developer working on X-Plat projects. Finally you can easily write cross platform apps and easily integrate Appium based UI Tests without all of the headaches of figuring out how to set it all up.</Description>
+    <Title>Mappium.UITest</Title>
+    <Description>Mappium.UITest is a UITest helper framework built on top of Appium for MAUI and Xamarin.Forms that aims to make it easier to write and run cross platform UI Tests.</Description>
+    <PackageTags>maui;xamarin;mappium;uitest;appium;ios;android</PackageTags>
+	<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	<PackageProjectUrl>https://github.com/eth-ellis/Mappium.UITest</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>

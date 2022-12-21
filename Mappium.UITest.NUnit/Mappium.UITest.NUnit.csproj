@@ -5,9 +5,11 @@
     <RootNamespace>Mappium.UITest</RootNamespace>
     <IsPackable>true</IsPackable>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	<Title>Mappium.UITest For NUnit</Title>
     <Description>Running Mappium.UITest with NUnit? This package contains the base class and helpers you need to help you ensure that your tests execute as expected. This will start and stop the app between each test run, ensure that you get a new Appium session to properly group your Screenshots, and disable test parallelization since only one UI Test can run at a time.</Description>
-    <PackageTags>nunit;mappium;uitest;appium;xamarin;maui</PackageTags>
-	<Title>Mappium UITest Plus NUnit</Title>
+    <PackageTags>nunit;maui;xamarin;mappium;uitest;appium;ios;android</PackageTags>
+	<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	<PackageProjectUrl>https://github.com/eth-ellis/Mappium.UITest</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
