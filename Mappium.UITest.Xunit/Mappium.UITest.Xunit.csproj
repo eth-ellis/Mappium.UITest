@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <RootNamespace>Mappium.UITest</RootNamespace>
+    <IsPackable>true</IsPackable>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>Running Mappium.UITest with XUnit? This package contains the base class and helpers you need to help you ensure that your tests execute as expected. This will start and stop the app between each test run, ensure that you get a new Appium session to properly group your Screenshots, and disable test parallelization since only one UI Test can run at a time.</Description>
+    <PackageTags>xunit;mappium;uitest;appium;xamarin;maui</PackageTags>
+    <Title>Mappium UITest Plus xUnit</Title>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="xunit" Version="2.4.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Mappium.UITest\Mappium.UITest.csproj" />
+  </ItemGroup>
+
+</Project>
