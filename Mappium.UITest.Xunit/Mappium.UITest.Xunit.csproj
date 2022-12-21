@@ -6,7 +6,7 @@
     <IsPackable>true</IsPackable>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 	<Version>1.1.0</Version>
-	<Authors>eth-ellis</Authors>
+	<Authors>Ethan Ellis</Authors>
     <Title>Mappium.UITest For xUnit</Title>
     <Description>Running Mappium.UITest with XUnit? This package contains the base class and helpers you need to help you ensure that your tests execute as expected. This will start and stop the app between each test run, ensure that you get a new Appium session to properly group your Screenshots, and disable test parallelization since only one UI Test can run at a time.</Description>
     <PackageTags>xunit;maui;xamarin;mappium;uitest;appium;ios;android</PackageTags>
